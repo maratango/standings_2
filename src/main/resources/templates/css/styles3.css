@@ -1,0 +1,549 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, dl, dt, dd,
+ol, ul, li, form, table, caption, tr, th, td, article, aside, footer, header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.d-yellow {
+    background: yellow;
+}
+
+.d-ygreen {
+    background: yellowgreen;
+}
+
+.d-red {
+    background: red;
+}
+
+.fl {
+    float: left;
+}
+
+.df {
+    display: flex;
+}
+
+.ma {
+    margin: auto;
+}
+
+.d-1 {
+    height: 100%;
+    width: 1%;
+}
+
+.d-2 {
+    height: 100%;
+    width: 2%;
+}
+
+.d-4 {
+    height: 100%;
+    width: 4%;
+}
+
+.d-5 {
+    height: 100%;
+    width: 5%;
+}
+
+.d-10 {
+    height: 100%;
+    width: 10%;
+}
+
+.d-15 {
+    height: 100%;
+    width: 15%;
+}
+
+.d-20 {
+    height: 100%;
+    width: 20%;
+}
+
+.d-25 {
+    height: 100%;
+    width: 25%;
+}
+
+.d-30 {
+    height: 100%;
+    width: 30%;
+}
+
+.d-35 {
+    height: 100%;
+    width: 35%;
+}
+
+.d-40 {
+    height: 100%;
+    width: 40%;
+}
+
+.d-50 {
+    height: 100%;
+    width: 50%;
+}
+
+.d-60 {
+    height: 100%;
+    width: 60%;
+}
+
+.d-h4 {
+    height: 4%;
+    width: 100%;
+}
+
+.d-h10 {
+    height: 10%;
+    width: 100%;
+}
+
+.d-h25 {
+    height: 25%;
+    width: 100%;
+}
+
+.d-h30 {
+    height: 30%;
+    width: 100%;
+}
+
+.d-h45 {
+    height: 45%;
+    width: 100%;
+}
+
+.d-h50 {
+    height: 50%;
+    width: 100%;
+}
+
+.d-100 {
+    height: 100%;
+    width: 100%;
+}
+
+.back-d {
+    background-color: #e0fff8;
+    /*height: 97.7vh;*/
+    /*width: 99.4vw;*/
+    height: 99.2vh;
+    width: 100vw;
+}
+
+.back-d-2 {
+    background-color: #c3fff8;
+    height: 99.2vh;
+    width: 100vw;
+}
+
+.header-d {
+    background: #c3fff8;
+    height: 6%;
+    width: 100%;
+}
+
+.main-d {
+    padding: -1%;
+    height: 94%;
+    width: 100%;
+    border-top: solid 2px #3cc5be;
+}
+
+.main-d-2 {
+    /*margin-top: -0.3%;*/
+    /*height: 100.7%;*/
+    height: 100%;
+    width: 50%;
+}
+
+.main-d-3 {
+    height: 100%;
+    width: 50%;
+    border-left: solid 2px #3cc5be;
+}
+
+.header-d-2 {
+    height: 100%;
+    width: 90%;
+}
+
+.header-d-3 {
+    height: 100%;
+    width: 10%;
+}
+
+.button-1:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.button-1:active {
+    font-size: 3vh;
+}
+
+.button-2 {
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+.button-3:hover {
+    font-weight: bold;
+}
+
+.add-d {
+    height: 30%;
+    width: 100%;
+}
+
+.header-d-4 {
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.header-d-5 {
+    height: 6%;
+    width: 100%;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.add-d-2 {
+    height: 80%;
+    width: 100%;
+}
+
+.add-d-3 {
+    height: 50%;
+    width: 100%;
+}
+
+.input-d-1 {
+    height: 100%;
+    width: 50%;
+}
+
+.input-1 {
+    width: 30vw;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.add-button-d-1 {
+    height: 100%;
+    width: 20%;
+}
+
+.add-button-1 {
+    background: #a6bfff;
+    width: 9vw;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.message-d {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 3vh;
+}
+
+.list-d-1 {
+    overflow: auto;
+    height: 90%;
+    width: 100%;
+}
+
+.ul-1 {
+    height: 100%;
+    width: 100%;
+}
+
+.li-1 {
+    height: 10%;
+    width: 100%;
+}
+
+.li-1:hover {
+    background: #a6bfff;
+}
+
+.li-2 {
+    background: #c0fb98
+}
+
+.a-1 {
+    margin-left: 1vw;
+    font-size: 3.5vh;
+    color: blue;
+    text-decoration: none;
+}
+
+.a-1:active {
+    font-size: 4vh;
+}
+
+.a-2{
+    margin-right: 1vw;
+    font-size: 2.5vh;
+    color: red;
+    text-decoration: none;
+}
+
+.a-2:active {
+    font-size: 3vh;
+}
+
+.header-d-6 {
+    height: 100%;
+    width: 85%;
+}
+
+.header-d-7 {
+    height: 100%;
+    width: 5%;
+}
+
+.main-d-4 {
+    height: 40%;
+    width: 100%;
+}
+
+.main-d-5 {
+    height: 60%;
+    width: 100%;
+    border-top: solid 2px #3cc5be;
+}
+
+.add-d-4 {
+    height: 100%;
+    width: 50%;
+}
+
+.list-d-2 {
+    overflow: auto;
+    height: 100%;
+    width: 50%;
+    border-left: solid 2px #3cc5be;
+}
+
+.header-d-8 {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.add-d-5 {
+    height: 90%;
+    width: 100%;
+}
+
+.list-d-3 {
+    overflow: auto;
+    height: 90%;
+    width: 100%;
+}
+
+.input-d-2 {
+    height: 33%;
+    width: 100%;
+}
+
+.message-d-2 {
+    height: 34%;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 3vh;
+}
+
+.label-2 {
+    font-weight: bold;
+}
+
+.input-d-3 {
+    height: 100%;
+    width: 51%;
+}
+
+.add-button-d-2 {
+    height: 100%;
+    width: 32%;
+}
+
+.add-button-2 {
+    background: #a6bfff;
+    width: 100%;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.list-d-4 {
+    height: 90%;
+    width: 100%;
+}
+
+.list-d-5 {
+    overflow: auto;
+    height: 100%;
+    width: 80%;
+}
+
+.list-d-6 {
+    overflow: auto;
+    height: 90%;
+    width: 100%;
+}
+
+#table_1 {
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+}
+
+#table_2 {
+    width: 100%;
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+}
+
+.tb-th {
+    width: 9%;
+    border-bottom: solid 1px;
+    border-right: solid 1px;
+}
+
+.tb-th-first {
+    width: 9%;
+    border-bottom: solid 1px;
+    border-right: solid 1px;
+    border-left: solid 1px;
+}
+
+.tb-th-team-name {
+    width: 19%;
+    border-bottom: solid 1px;
+    border-right: solid 1px;
+}
+
+.tb-td {
+    border-right: solid 1px;
+    text-align: center;
+}
+
+.tb-td-first {
+    border-right: solid 1px;
+    border-left: solid 1px;
+    text-align: center;
+}
+
+.tb-td-team-name {
+    border-right: solid 1px;
+    padding: 0.2vw;
+}
+
+.td-tr-1 {
+    background: #c0fb98;
+}
+
+.tb-td-ht {
+    width: 36%;
+    text-align: right;
+    font-size: 130%;
+}
+
+.tb-td-gt {
+    width: 36%;
+    text-align: left;
+    font-size: 130%;
+}
+
+.tb-td-g {
+    width: 4%;
+    text-align: center;
+    font-size: 130%;
+}
+
+.tb-td-p {
+    width: 2%;
+    text-align: center;
+}
+
+.tb-td-d {
+    width: 14%;
+    text-align: center;
+}
+
+.tb-td-e-2 {
+    width: 2%;
+}
+
+.li-1:hover {
+    background: #a6bfff;
+}
+
+.label-1 {
+    background-color: #c3fff8;
+    font-size: 1.1vw;
+    color: black;
+    font-weight: bold;
+}
+
+.field-1 {
+    height: 75%;
+    border: solid 2px #3cc5be;
+    background-color: white;
+    text-align: left;
+    font-size: 1.1vw;
+    padding: 0.4em;
+    color: black;
+}
+
+.button-4 {
+    height: 55%;
+    width: 30%;
+    border: solid 2px #3cc5be;
+    font-size: 1.0vw;
+    padding: 0.4em;
+    color: black;
+    text-align: center;
+    background-color: #c0fb98;
+}
+
+.button-4:hover {
+    border: solid 4px #3cc5be;
+    font-weight: bold;
+}
+
+.button-4:active {
+    background-color: #c3ffeb;
+}
+
+.label-d-1 {
+    margin-left: 0;
+}
+
+.home-message-block{
+    text-align: center;
+    color: red;
+    font-weight: normal;
+    font-size: 1.3vw;
+}

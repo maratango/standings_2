@@ -1,0 +1,143 @@
+.backgroung-1 {
+    background-color: #e0fff8;
+    height: 97.7vh;
+    width: 99vw;
+}
+
+.header-1 {
+    background: #c3fff8;
+    height: 6.0vh;
+}
+
+.exit-button-d {
+    display: flex;
+    float: right;
+    height: 6.0vh;
+    width: 8vw;
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+.return-button-d {
+    width: 4vw;
+}
+
+.exit-button {
+    margin: auto;
+}
+
+.parent-button-1:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.parent-button-1:active {
+    font-size: 3vh;
+}
+
+.parent-button-2:hover {
+    font-weight: bold;
+}
+
+.tour-add-1 {
+    height: 20vh;
+    border-top: solid 2px #3cc5be;
+}
+
+.header-label-1-d {
+    margin-top: 1vh;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.tour-add-2 {
+    margin-top: 2vh;
+    height: 6vh;
+}
+
+.tour-add-3 {
+    display: flex;
+    margin: auto;
+    height: 6vh;
+    width: 40vw;
+}
+
+.input-1 {
+    margin: auto;
+    width: 30vw;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.add-button-1 {
+    background: #a6bfff;
+    margin: auto;
+    width: 8vw;
+    font-size: 2.5vh;
+}
+
+.message-d {
+    margin-top: 2vh;
+    height: 4vh;
+    text-align: center;
+    color: red;
+    font-size: 3vh;
+}
+
+.tour-list-1 {
+    margin-top: 2vh;
+    height: 70vh;
+    border-top: solid 2px #3cc5be;
+}
+
+.tour-list-2 {
+    display: flex;
+    margin-top: 2vh;
+    height: 65vh;
+}
+
+.tour-list-3 {
+    margin: auto;
+    height: 63vh;
+    overflow: auto;
+    width: 50vw;
+}
+
+.li-1 {
+    display: flex;
+    margin-left: -2vw;
+    height: 7vh;
+}
+
+.li-1:hover {
+    background: #a6bfff;
+}
+
+.li-2 {
+    background: #c0fb98
+}
+
+.li-a-1 {
+    margin: auto;
+    margin-left: 1vw;
+    font-size: 3.5vh;
+    color: blue;
+    text-decoration: none;
+}
+
+.li-a-1:active {
+    font-size: 4vh;
+}
+
+.li-a-2{
+    margin: auto;
+    margin-right: 1vw;
+    font-size: 2.5vh;
+    color: red;
+    text-decoration: none;
+}
+
+.li-a-2:active {
+    font-size: 3vh;
+}

@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: system
+    password: apps
+  jpa:
+    properties:
+      hibernate:
+        default_schema: server
+logging:
+  file:
+    path: /var/logs/
+    file: standings_2.log
+

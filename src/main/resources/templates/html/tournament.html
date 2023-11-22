@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/templates/css/styles3.css"/>
+    <title>Турнирная таблица</title>
+</head>
+<body>
+    <div class="back-d">
+        <div class="header-d">
+            <div class="fl header-d-6"></div>
+            <div class="fl df header-d-7">
+                <a class="ma button-1 button-2" href="/tourList">Назад</a>
+            </div>
+            <div class="fl df header-d-3">
+                <a class="ma button-1 button-2" href="/">Выйти</a>
+            </div>
+        </div>
+        <div class="main-d">
+            <div class="main-d-4">
+                <div class="fl add-d-4">
+                    <div class="df header-d-8">
+                        <div class="ma">Добавление матча</div>
+                    </div>
+                    <div class="add-d-5">
+                        <div class="input-d-2">
+                            <div class="fl d-10"></div>
+                            <div class="fl df input-d-1">
+                                <input class="ma input-1" type="text" id="addField" placeholder="Введите результат матча"/>
+                            </div>
+                            <div class="fl d-5"></div>
+                            <div class="fl df add-button-d-1">
+                                <button class="ma button-1 add-button-1" type="button" id="addButton">Добавить</button>
+                            </div>
+                            <div class="fl d-15"></div>
+                        </div>
+                        <div class="input-d-2">
+                            <div class="fl d-10"></div>
+                            <div class="fl df input-d-3">
+                                <label class="ma label-2">Файл с матчами:</label>
+                                <div class="d-2"></div>
+                                <input class="ma" id="loadFiles" type="file">
+                            </div>
+                            <div class="fl d-5"></div>
+                            <div class="fl df add-button-d-2">
+                                <button class="ma button-1 add-button-2" type="button" id="addFromFileButton">
+                                    Добавить из файла
+                                </button>
+                            </div>
+                            <div class="d-2"></div>
+                        </div>
+                        <div class="message-d-2" id="addMessage"></div>
+                    </div>
+                </div>
+                <div class="fl list-d-2">
+                    <div class="df header-d-8">
+                        <div class="ma">Список матчей</div>
+                    </div>
+                    <div class="list-d-4">
+                        <div class="d-h10"></div>
+                        <div class="list-d-6">
+                            <table id="table_2">
+<!--                                <tr class="li-1 td-tr-1">-->
+<!--                                    <td class="tb-td-ht">Команда 1</td>-->
+<!--                                    <td class="tb-td-e-2"></td>-->
+<!--                                    <td class="tb-td-g">2</td>-->
+<!--                                    <td class="tb-td-p">:</td>-->
+<!--                                    <td class="tb-td-g">1</td>-->
+<!--                                    <td class="tb-td-e-2"></td>-->
+<!--                                    <td class="tb-td-gt">Команда 2</td>-->
+<!--                                    <td class="tb-td-d">-->
+<!--                                        <div class="df">-->
+<!--                                            <a class="ma button-3 a-2" href="/game/1/delete">Удалить</a>-->
+<!--                                        </div>-->
+<!--                                    </td>-->
+<!--                                </tr>-->
+<!--                                <tr class="li-1">-->
+<!--                                    <td class="tb-td-ht">Команда 1</td>-->
+<!--                                    <td class="tb-td-e-2"></td>-->
+<!--                                    <td class="tb-td-g">2</td>-->
+<!--                                    <td class="tb-td-p">:</td>-->
+<!--                                    <td class="tb-td-g">1</td>-->
+<!--                                    <td class="tb-td-e-2"></td>-->
+<!--                                    <td class="tb-td-gt">Команда 2</td>-->
+<!--                                    <td class="tb-td-d">-->
+<!--                                        <div class="df">-->
+<!--                                            <a class="ma button-3 a-2" href="/game/1/delete">Удалить</a>-->
+<!--                                        </div>-->
+<!--                                    </td>-->
+<!--                                </tr>-->
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-d-5">
+                <div class="df header-d-8">
+                    <div class="ma">Турнирная таблица</div>
+                </div>
+                <div class="list-d-4">
+                    <div class="fl d-10"></div>
+                    <div class="fl list-d-5">
+                        <table id="table_1">
+                            <tr>
+                                <th class="tb-th-first">место</th>
+                                <th class="tb-th-team-name">команда</th>
+                                <th class="tb-th">очки</th>
+                                <th class="tb-th">количество игр</th>
+                                <th class="tb-th">победы</th>
+                                <th class="tb-th">ничьи</th>
+                                <th class="tb-th">поражения</th>
+                                <th class="tb-th">голы забитые</th>
+                                <th class="tb-th">голы пропущенные</th>
+                                <th class="tb-th">разница голов</th>
+                            </tr>
+<!--                            <tr class="td-tr-1">-->
+<!--                                <td class="tb-td-first">1</td>-->
+<!--                                <td class="tb-td-team-name">2</td>-->
+<!--                                <td class="tb-td">3</td>-->
+<!--                                <td class="tb-td">4</td>-->
+<!--                                <td class="tb-td">5</td>-->
+<!--                                <td class="tb-td">6</td>-->
+<!--                                <td class="tb-td">7</td>-->
+<!--                                <td class="tb-td">8</td>-->
+<!--                                <td class="tb-td">9</td>-->
+<!--                                <td class="tb-td">10</td>-->
+<!--                            </tr>-->
+<!--                            <tr>-->
+<!--                                <td class="tb-td-first">1</td>-->
+<!--                                <td class="tb-td-team-name">2</td>-->
+<!--                                <td class="tb-td">3</td>-->
+<!--                                <td class="tb-td">4</td>-->
+<!--                                <td class="tb-td">5</td>-->
+<!--                                <td class="tb-td">6</td>-->
+<!--                                <td class="tb-td">7</td>-->
+<!--                                <td class="tb-td">8</td>-->
+<!--                                <td class="tb-td">9</td>-->
+<!--                                <td class="tb-td">10</td>-->
+<!--                            </tr>-->
+                        </table>
+                    </div>
+                    <div class="fl d-10"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="/templates/js/tournament/tournament.js"></script>
+</body>
+</html>

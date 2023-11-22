@@ -1,0 +1,104 @@
+
+.grid-container-1 {
+    width: 99vw;
+    height: 97vh;
+    display: grid;
+    grid-template-columns: repeat(100, [column] 1%);
+    grid-template-rows: repeat(100, [row] 1%);
+    background-color: #c3fff8;
+}
+
+.grid-container-2 {
+    width: 30vw;
+    height: 30vh;
+    grid-column: column 32 / column 72;
+    grid-row: row 20 / row 60;
+    display: grid;
+    grid-template-columns: repeat(100, [column] 1%);
+    grid-template-rows: repeat(100, [row] 1%);
+}
+
+.label-1 {
+    background-color: #c3fff8;
+    font-size: 1.1vw;
+    padding: 0.4em;
+    color: black;
+    font-weight: bold;
+}
+
+.field-1 {
+    border: solid 2px #3cc5be;
+    background-color: white;
+    text-align: left;
+    font-size: 1.1vw;
+    padding: 0.4em;
+    color: black;
+    font-weight: bold;
+}
+
+.homeLoginLabel {
+    grid-column: column 13 / column 30;
+    grid-row: row 25 / row 40;
+}
+
+.homePasswordLabel {
+    grid-column: column 13 / column 30;
+    grid-row: row 45 / row 60;
+}
+
+.homeLoginField {
+    grid-column: column 30 / column 80;
+    grid-row: row 25 / row 40;
+    font-weight: normal;
+}
+
+.homePasswordField {
+    grid-column: column 30 / column 80;
+    grid-row: row 45 / row 60;
+}
+.parent-button-1 {
+    border: solid 2px #3cc5be;
+    font-size: 1.0vw;
+    padding: 0.4em;
+    color: black;
+    text-align: center;
+}
+
+.parent-button-1:hover {
+    border: solid 4px #3cc5be;
+    font-weight: bold;
+}
+
+.parent-button-1:active {
+    background-color: #c3ffeb;
+}
+
+.button-1 {
+    grid-column: column 10 / column 35;
+    grid-row: row 75 / row 95;
+    background-color: #adfa7a;
+}
+
+.button-2 {
+    grid-column: column 40 / column 65;
+    grid-row: row 75 / row 95;
+    background-color: #c0fb98;
+}
+
+.button-3 {
+    grid-column: column 70 / column 95;
+    grid-row: row 75 / row 95;
+    background-color: #cdf8cd;
+}
+
+.home-message-block{
+    width: 30vw;
+    height: 10vh;
+    grid-column: column 32 / column 72;
+    grid-row: row 53 / row 58;
+    text-align: center;
+    color: red;
+    font-weight: normal;
+    font-size: 1.3vw;
+    padding: 0.4em;
+}

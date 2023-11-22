@@ -1,0 +1,198 @@
+.df {
+    display: flex;
+}
+
+.ma {
+    margin: auto;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.d-1 {
+    width: 1vw;
+}
+
+.d-2 {
+    width: 2vw;
+}
+
+.d-3p75 {
+    width: 4vw;
+}
+
+.d-4 {
+    width: 4vw;
+}
+
+.d-8 {
+    width: 8vw;
+}
+
+.d-h6 {
+    height: 6vh;
+}
+
+.d-yellow {
+    background: yellow;
+}
+
+.back-d-1 {
+    background-color: #e0fff8;
+    height: 97.7vh;
+    width: 99vw;
+}
+
+.header-d-1 {
+    background: #c3fff8;
+    height: 6.0vh;
+}
+
+.exit-button-d-1 {
+    height: 6.0vh;
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+.button-1:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.button-1:active {
+    font-size: 3vh;
+}
+
+.button-2:hover {
+    font-weight: bold;
+}
+
+.tour-add-d-1 {
+    height: 20vh;
+    border-top: solid 2px #3cc5be;
+}
+
+.match-add-d-1 {
+    height: 20vh;
+    border-top: solid 2px #3cc5be;
+}
+
+.header-d-2 {
+    margin-top: 1vh;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.tour-add-d-2 {
+    margin-top: 2vh;
+    height: 6vh;
+}
+
+.match-add-d-2 {
+    margin-top: 2vh;
+    height: 6vh;
+}
+
+.tour-add-d-3 {
+    height: 6vh;
+    width: 41.2vw;
+}
+
+.match-add-d-3 {
+    height: 6vh;
+    width: 55.2vw;
+    border-top: solid 2px #3cc5be;
+}
+
+.input-1 {
+    width: 30vw;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.add-button-1 {
+    background: #a6bfff;
+    width: 9vw;
+    font-size: 2.5vh;
+    text-align: left;
+    padding-left: 1.3vw;
+}
+
+.add-button-2 {
+    background: #a6bfff;
+    width: 16vw;
+    font-size: 2.5vh;
+    text-align: left;
+    padding-left: 1.3vw;
+}
+
+.message-d {
+    margin-top: 1vh;
+    height: 4vh;
+    text-align: center;
+    color: red;
+    font-size: 3vh;
+}
+
+.label-1 {
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+.tour-list-d-1 {
+    margin-top: 2vh;
+    height: 71.7vh;
+    border-top: solid 2px #3cc5be;
+}
+
+.tour-list-d-2 {
+    margin-top: 2vh;
+    height: 65vh;
+}
+
+.tour-list-d-3 {
+    height: 63vh;
+    overflow: auto;
+    width: 50vw;
+}
+
+.li-1 {
+    margin-left: -2vw;
+    height: 7vh;
+}
+
+.li-1:hover {
+    background: #a6bfff;
+}
+
+.li-2 {
+    background: #c0fb98
+}
+
+.a-1 {
+    margin-left: 1vw;
+    font-size: 3.5vh;
+    color: blue;
+    text-decoration: none;
+}
+
+.a-1:active {
+    font-size: 4vh;
+}
+
+.a-2{
+    margin-right: 1vw;
+    font-size: 2.5vh;
+    color: red;
+    text-decoration: none;
+}
+
+.a-2:active {
+    font-size: 3vh;
+}
