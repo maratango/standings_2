@@ -6,7 +6,7 @@
 СУБД PostgreSql 13(пролить в БД все скрипты из 001.sql, собрать проект, запустить jar.
 
 ![Screenshot](screenshot.png)
-![Screenshot](screenshot-1.png)
 ![Screenshot](screenshot-2.png)
+![Screenshot](screenshot-3.png)
 
 https://github.com/maratango/standings_2
